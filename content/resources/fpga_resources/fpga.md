@@ -2,7 +2,7 @@
 
 FPGAs stands for Field Programmable Gate Arrays, and they are digital integrated circuits (ICs) that contain programmable blocks of logic. A crucial feature of such devices is that they allow the acquisition of data at sub-microsecond and high data rates, while offering flexibility in terms of their functionality and low power usage. The following image depicts how the FPGAs compare with the more common CPUs and GPUs, as well as ASIC devices.
 
-![Untitled](../../../images/resources/fpga_figs/fpga_spectrum.png)
+![Device Spectrum](../../images/resources/fpga_figs/fpga_spectrum.png)
 
 On the left side of the spectrum, devices like CPUs and GPUs have an internal architecture that is predetermined by the manufacturer, but which are created in a way that they can be reprogrammed to perform a variety of tasks.
 
@@ -14,7 +14,7 @@ As it can inferred, FPGAs lie in the middle of the spectrum for justified reason
 
 The Compact Muon Solenoid (CMS) comprises of a system of two triggers that select collision events in a live and offline basis. These two triggers are the High Level Trigger (HLT) and the Level 1 (L1) trigger. A significant difference between the two triggers to highlight in this discussion is that, on one hand, the HLT is a version of the CMS offline reconstruction software running on a computer farm made up of CPUs and GPUs. On the other hand, the L1 trigger is a custom hardware-software codesigned algorithm implemented on FPGAs. The workflow of the two-trigger system in the CMS detector is outlined in the figure below.
 
-![Untitled](../../../images/resources/fpga_figs/TriggerSysWorkflow.png)
+![Untitled](../../images/resources/fpga_figs/TriggerSysWorkflow.png)
 
 
 ## HL-LHC Implications for the CMS Level-1 Trigger
